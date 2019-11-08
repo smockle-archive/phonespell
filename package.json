@@ -1,0 +1,44 @@
+{
+  "name": "@smockle/phonespell",
+  "description": "Convert a word to its dialpad number equivalent",
+  "files": [
+    "dist"
+  ],
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/lib/index.js",
+  "types": "dist/lib/index.d.ts",
+  "bin": {
+    "phonespell": "dist/bin/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "start": "node --experimental-modules --es-module-specifier-resolution=node dist/bin/index.js"
+  },
+  "keywords": [],
+  "author": "Clay Miller <clay@smockle.com> (https://www.smockle.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.deburr": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.22",
+    "@types/lodash.deburr": "^4.1.6",
+    "@types/node": "^12.12.6",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.7.2"
+  },
+  "engines": {
+    "node": ">= 12.0.0"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "collectCoverage": true,
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "<rootDir>/dist/"
+    ]
+  }
+}
