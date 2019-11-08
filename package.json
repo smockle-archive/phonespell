@@ -16,9 +16,16 @@
     "test": "jest",
     "start": "node --experimental-modules --es-module-specifier-resolution=node dist/bin/index.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smockle/phonespell.git"
+  },
   "author": "Clay Miller <clay@smockle.com> (https://www.smockle.com/)",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smockle/phonespell/issues"
+  },
+  "homepage": "https://github.com/smockle/phonespell#readme",
   "dependencies": {
     "lodash.deburr": "^4.1.0"
   },

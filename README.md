@@ -22,8 +22,8 @@ $ npx @smockle/phonespell "SPELL"
 ### JavaScript & TypeScript
 
 ```TypeScript
-import { phonespell } from '@smockle/phonespell'
-console.log(phonespell("SPELL"))
+import { phonespell } from "@smockle/phonespell";
+console.log(phonespell("SPELL"));
 ```
 
 ## Testing
