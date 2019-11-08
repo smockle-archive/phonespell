@@ -1,4 +1,4 @@
-#!/usr/bin/env node --experimental-modules --es-module-specifier-resolution=node
+#!/usr/bin/env node --experimental-modules --es-module-specifier-resolution=node --no-warnings
 import { phonespell } from "../lib/index";
 import { existsSync, readFileSync } from "fs";
 import url from "url";

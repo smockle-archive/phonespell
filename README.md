@@ -16,7 +16,7 @@ Run `npm install --save @smockle/phonespell` to add `phonespell` to your project
 ### Shell
 
 ```sh
-$ npx phonespell "SPELL"
+$ npx @smockle/phonespell "SPELL"
 ```
 
 ### JavaScript & TypeScript
