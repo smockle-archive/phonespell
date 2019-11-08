@@ -18,11 +18,7 @@ export function phonespell(input: string): number {
       .replace(/[^a-z]/g, "")
       .split("")
       .reduce((output: string | undefined, character) => {
-        const n = dialpad.get(character);
-        if (n) {
-          output = `${output || ""}${n}`;
-        }
-        return output;
+        return `${output || ""}${dialpad.get(character)}`;
       }, undefined)
   );
 }
