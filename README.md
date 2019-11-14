@@ -9,14 +9,14 @@ Convert a word to its dialpad number equivalent (e.g. "SPELL" to 77355).
 
 ## Installation
 
-Run `npm install --save @smockle/phonespell` to add `phonespell` to your project.
+Run `yarn add @smockle/phonespell` to add `phonespell` to your project.
 
 ## Usage
 
 ### Shell
 
 ```sh
-$ npx @smockle/phonespell "SPELL"
+$ phonespell "SPELL"
 ```
 
 ### JavaScript & TypeScript
@@ -28,4 +28,4 @@ console.log(phonespell("SPELL"));
 
 ## Testing
 
-`phonespell` includes several unit tests. After cloning the `phonespell` repo locally, run `npm install` in the project folder to install dependencies. Run `npm test` to execute the tests.
+`phonespell` includes several unit tests. After cloning the `phonespell` repo locally, run `yarn install` in the project folder to install dependencies. Run `yarn test` to execute the tests.
