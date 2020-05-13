@@ -4,7 +4,7 @@
   "files": [
     "dist"
   ],
-  "version": "1.0.34",
+  "version": "1.0.35",
   "type": "module",
   "main": "dist/lib/index.js",
   "types": "dist/lib/index.d.ts",
